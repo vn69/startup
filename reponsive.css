@@ -11,10 +11,6 @@
     opacity: 1;
     padding-bottom: 10px;
   }
-  .rate {
-    /* fix-mobile-parallax */
-    background-attachment: scroll;
-  }
   .about::before {
     display: none;
   }
@@ -78,5 +74,11 @@
 
   .hero-wrap {
     padding: 120px 0;
+  }
+  .footer__links li:not(:first-child) {
+    margin-left: 0;
+  }
+  .footer__links li {
+    margin: 10px 12px;
   }
 }
