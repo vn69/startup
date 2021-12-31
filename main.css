@@ -26,6 +26,8 @@ body {
   line-height: 1.5;
   height: 100%;
   -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 ul {
   list-style: none;
